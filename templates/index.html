@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>RPS Tournament Leaderboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <h1>Rock-Paper-Scissors Tournament</h1>
+
+  <section class="card">
+    <h2>Start Game</h2>
+    <div class="row">
+      <label>Player 1</label>
+      <input id="p1" placeholder="Player 1 name" />
+      <span id="p1Lock"></span>
+    </div>
+
+    <div class="row">
+      <label>Player 2</label>
+      <input id="p2" placeholder="Player 2 name" />
+    </div>
+
+    <button id="startBtn">Start / Restart Game</button>
+    <button id="playBtn">Play Round</button>
+
+    <pre id="status"></pre>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Leaderboard (A → Z)</h2>
+      <ol id="lbName"></ol>
+    </div>
+    <div class="card">
+      <h2>Leaderboard (High Score)</h2>
+      <ol id="lbScore"></ol>
+    </div>
+  </section>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
