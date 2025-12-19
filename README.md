@@ -1,3 +1,5 @@
+To run this project I had to create a virutal environment with the following commands:
+
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
